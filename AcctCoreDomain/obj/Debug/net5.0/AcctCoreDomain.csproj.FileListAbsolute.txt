@@ -1,0 +1,20 @@
+E:\Dev Major Projects\AcctCore\AcctCoreDomain\bin\Debug\net5.0\AcctCoreDomain.deps.json
+E:\Dev Major Projects\AcctCore\AcctCoreDomain\bin\Debug\net5.0\AcctCoreDomain.dll
+E:\Dev Major Projects\AcctCore\AcctCoreDomain\bin\Debug\net5.0\ref\AcctCoreDomain.dll
+E:\Dev Major Projects\AcctCore\AcctCoreDomain\bin\Debug\net5.0\AcctCoreDomain.pdb
+E:\Dev Major Projects\AcctCore\AcctCoreDomain\obj\Debug\net5.0\AcctCoreDomain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Dev Major Projects\AcctCore\AcctCoreDomain\obj\Debug\net5.0\AcctCoreDomain.csproj.CoreCompileInputs.cache
+E:\Dev Major Projects\AcctCore\AcctCoreDomain\obj\Debug\net5.0\AcctCoreDomain.dll
+E:\Dev Major Projects\AcctCore\AcctCoreDomain\obj\Debug\net5.0\ref\AcctCoreDomain.dll
+E:\Dev Major Projects\AcctCore\AcctCoreDomain\obj\Debug\net5.0\AcctCoreDomain.pdb
+E:\Dev Major Projects\AcctCore\AcctCoreDomain\obj\Debug\net5.0\AcctCoreDomain.csprojAssemblyReference.cache
+E:\Dev Major Projects\AcctCore Libraries\AcctCoreDomain\bin\Debug\net5.0\AcctCoreDomain.deps.json
+E:\Dev Major Projects\AcctCore Libraries\AcctCoreDomain\bin\Debug\net5.0\AcctCoreDomain.dll
+E:\Dev Major Projects\AcctCore Libraries\AcctCoreDomain\bin\Debug\net5.0\ref\AcctCoreDomain.dll
+E:\Dev Major Projects\AcctCore Libraries\AcctCoreDomain\bin\Debug\net5.0\AcctCoreDomain.pdb
+E:\Dev Major Projects\AcctCore Libraries\AcctCoreDomain\obj\Debug\net5.0\AcctCoreDomain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Dev Major Projects\AcctCore Libraries\AcctCoreDomain\obj\Debug\net5.0\AcctCoreDomain.csproj.CoreCompileInputs.cache
+E:\Dev Major Projects\AcctCore Libraries\AcctCoreDomain\obj\Debug\net5.0\AcctCoreDomain.dll
+E:\Dev Major Projects\AcctCore Libraries\AcctCoreDomain\obj\Debug\net5.0\ref\AcctCoreDomain.dll
+E:\Dev Major Projects\AcctCore Libraries\AcctCoreDomain\obj\Debug\net5.0\AcctCoreDomain.pdb
+E:\Dev Major Projects\AcctCore Libraries\AcctCoreDomain\obj\Debug\net5.0\AcctCoreDomain.csproj.AssemblyReference.cache
