@@ -1,0 +1,493 @@
+dbug: 6/27/2021 17:57:04.663 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'AccountNumber.EntryLine' was created in shadow state because there are no eligible CLR members with a matching name.
+info: 6/27/2021 17:57:04.866 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 5.0.7 initialized 'AcctDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+dbug: 6/27/2021 17:57:04.942 RelationalEventId.MigrateUsingConnection[20400] (Microsoft.EntityFrameworkCore.Migrations) 
+      Migrating using database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 17:57:04.957 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 17:57:05.369 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 17:57:05.382 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 6/27/2021 17:57:05.391 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (8ms).
+dbug: 6/27/2021 17:57:05.402 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+info: 6/27/2021 17:57:05.437 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (36ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+dbug: 6/27/2021 17:57:05.440 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 17:57:05.447 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 17:57:05.453 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteScalar'.
+dbug: 6/27/2021 17:57:05.453 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteScalar' (0ms).
+dbug: 6/27/2021 17:57:05.454 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 17:57:05.455 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 17:57:05.455 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+info: 6/27/2021 17:57:05.480 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (25ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+dbug: 6/27/2021 17:57:05.480 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 17:57:05.482 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 17:57:05.483 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 17:57:05.483 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 17:57:05.483 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 6/27/2021 17:57:05.483 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 6/27/2021 17:57:05.483 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+info: 6/27/2021 17:57:05.485 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+dbug: 6/27/2021 17:57:05.486 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 17:57:05.486 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 17:57:05.486 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteScalar'.
+dbug: 6/27/2021 17:57:05.486 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteScalar' (0ms).
+dbug: 6/27/2021 17:57:05.486 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 17:57:05.486 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 17:57:05.486 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+info: 6/27/2021 17:57:05.487 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+dbug: 6/27/2021 17:57:05.487 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 17:57:05.487 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 17:57:05.519 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+dbug: 6/27/2021 17:57:05.519 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (0ms).
+dbug: 6/27/2021 17:57:05.519 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 17:57:05.519 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 17:57:05.520 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [MigrationId], [dbug: 6/27/2021 17:59:23.051 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'AccountNumber.EntryLine' was created in shadow state because there are no eligible CLR members with a matching name.
+info: 6/27/2021 17:59:23.243 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 5.0.7 initialized 'AcctDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+dbug: 6/27/2021 17:59:23.410 CoreEventId.DetectChangesStarting[10800] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      DetectChanges starting for 'AcctDataContext'.
+dbug: 6/27/2021 17:59:23.414 CoreEventId.DetectChangesCompleted[10801] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      DetectChanges completed for 'AcctDataContext'.
+dbug: 6/27/2021 17:59:23.415 CoreEventId.DetectChangesStarting[10800] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      DetectChanges starting for 'AcctDataContext'.
+dbug: 6/27/2021 17:59:23.415 CoreEventId.DetectChangesCompleted[10801] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      DetectChanges completed for 'AcctDataContext'.
+dbug: 6/27/2021 17:59:23.470 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 17:59:23.738 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 17:59:23.747 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 6/27/2021 17:59:23.756 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (4ms).
+dbug: 6/27/2021 17:59:23.767 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+info: 6/27/2021 17:59:23.802 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (37ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+dbug: 6/27/2021 17:59:23.805 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 17:59:23.812 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 17:59:23.818 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteScalar'.
+dbug: 6/27/2021 17:59:23.818 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteScalar' (0ms).
+dbug: 6/27/2021 17:59:23.819 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 17:59:23.820 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 17:59:23.820 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+info: 6/27/2021 17:59:23.846 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (25ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+dbug: 6/27/2021 17:59:23.846 Reldbug: 6/27/2021 18:02:05.930 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'AccountNumber.EntryLine' was created in shadow state because there are no eligible CLR members with a matching name.
+info: 6/27/2021 18:02:06.136 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 5.0.7 initialized 'AcctDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+dbug: 6/27/2021 18:02:06.210 RelationalEventId.MigrateUsingConnection[20400] (Microsoft.EntityFrameworkCore.Migrations) 
+      Migrating using database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:02:06.223 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:02:06.485 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:02:06.498 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 6/27/2021 18:02:06.508 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (9ms).
+dbug: 6/27/2021 18:02:06.519 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+info: 6/27/2021 18:02:06.554 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (37ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+dbug: 6/27/2021 18:02:06.558 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:02:06.565 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:02:06.571 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteScalar'.
+dbug: 6/27/2021 18:02:06.571 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteScalar' (0ms).
+dbug: 6/27/2021 18:02:06.571 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:02:06.573 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:02:06.573 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+info: 6/27/2021 18:02:06.599 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (26ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+dbug: 6/27/2021 18:02:06.599 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:02:06.600 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:02:06.601 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:02:06.601 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:02:06.601 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 6/27/2021 18:02:06.601 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 6/27/2021 18:02:06.601 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+info: 6/27/2021 18:02:06.603 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+dbug: 6/27/2021 18:02:06.604 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:02:06.604 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:02:06.604 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteScalar'.
+dbug: 6/27/2021 18:02:06.604 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteScalar' (0ms).
+dbug: 6/27/2021 18:02:06.604 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:02:06.604 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:02:06.604 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+info: 6/27/2021 18:02:06.605 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+dbug: 6/27/2021 18:02:06.605 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:02:06.605 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:02:06.629 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+dbug: 6/27/2021 18:02:06.629 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (0ms).
+dbug: 6/27/2021 18:02:06.629 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:02:06.629 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:02:06.629 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [MigrationId], [dbug: 6/27/2021 18:08:04.215 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'AccountNumber.EntryLine' was created in shadow state because there are no eligible CLR members with a matching name.
+info: 6/27/2021 18:08:04.413 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 5.0.7 initialized 'AcctDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+dbug: 6/27/2021 18:08:04.486 RelationalEventId.MigrateUsingConnection[20400] (Microsoft.EntityFrameworkCore.Migrations) 
+      Migrating using database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:04.499 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:04.750 RelationalEventId.ConnectionError[20004] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      An error occurred using the connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:04.751 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:04.752 RelationalEventId.ConnectionError[20004] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      An error occurred using the connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:04.803 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'master' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:04.831 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'master' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:04.842 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 6/27/2021 18:08:04.852 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (8ms).
+dbug: 6/27/2021 18:08:04.862 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='60']
+      CREATE DATABASE [AcctData];
+info: 6/27/2021 18:08:05.829 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (958ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+      CREATE DATABASE [AcctData];
+dbug: 6/27/2021 18:08:05.831 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 6/27/2021 18:08:05.831 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 6/27/2021 18:08:05.831 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='60']
+      IF SERVERPROPERTY('EngineEdition') <> 5
+      BEGIN
+          ALTER DATABASE [AcctData] SET READ_COMMITTED_SNAPSHOT ON;
+      END;
+info: 6/27/2021 18:08:06.213 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (381ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+      IF SERVERPROPERTY('EngineEdition') <> 5
+      BEGIN
+          ALTER DATABASE [AcctData] SET READ_COMMITTED_SNAPSHOT ON;
+      END;
+dbug: 6/27/2021 18:08:06.217 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'master' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:06.232 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'master' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:06.241 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:06.252 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:06.253 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 6/27/2021 18:08:06.253 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 6/27/2021 18:08:06.253 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+info: 6/27/2021 18:08:06.268 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+dbug: 6/27/2021 18:08:06.268 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:06.268 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:06.396 CoreEventId.DetectChangesStarting[10800] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      DetectChanges starting for 'AcctDataContext'.
+dbug: 6/27/2021 18:08:06.400 CoreEventId.DetectChangesCompleted[10801] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      DetectChanges completed for 'AcctDataContext'.
+dbug: 6/27/2021 18:08:06.413 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 6/27/2021 18:08:06.413 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 6/27/2021 18:08:06.413 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:06.414 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:06.414 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE [__EFMigrationsHistory] (
+          [MigrationId] nvarchar(150) NOT NULL,
+          [ProductVersion] nvarchar(32) NOT NULL,
+          CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+      );
+info: 6/27/2021 18:08:06.424 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE [__EFMigrationsHistory] (
+          [MigrationId] nvarchar(150) NOT NULL,
+          [ProductVersion] nvarchar(32) NOT NULL,
+          CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+      );
+dbug: 6/27/2021 18:08:06.424 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:06.424 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:06.425 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:06.425 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:06.425 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 6/27/2021 18:08:06.425 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 6/27/2021 18:08:06.425 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+info: 6/27/2021 18:08:06.426 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+dbug: 6/27/2021 18:08:06.426 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:06.426 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:06.432 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteScalar'.
+dbug: 6/27/2021 18:08:06.432 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteScalar' (0ms).
+dbug: 6/27/2021 18:08:06.432 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:06.432 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:06.432 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+info: 6/27/2021 18:08:06.457 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (25ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+dbug: 6/27/2021 18:08:06.457 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:06.458 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:06.460 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+dbug: 6/27/2021 18:08:06.460 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (0ms).
+dbug: 6/27/2021 18:08:06.460 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:06.460 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:06.460 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [MigrationId], [ProductVersion]
+      FROM [__EFMigrationsHistory]
+      ORDER BY [MigrationId];
+info: 6/27/2021 18:08:06.464 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [MigrationId], [ProductVersion]
+      FROM [__EFMigrationsHistory]
+      ORDER BY [MigrationId];
+dbug: 6/27/2021 18:08:06.470 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader was disposed.
+dbug: 6/27/2021 18:08:06.470 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:06.470 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+info: 6/27/2021 18:08:06.490 RelationalEventId.MigrationApplying[20402] (Microsoft.EntityFrameworkCore.Migrations) 
+      Applying migration '20210627230751_Init'.
+dbug: 6/27/2021 18:08:06.541 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:06.541 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'AcctData' on server 'OV-FS2\OVSQL'.
+dbug: 6/27/2021 18:08:06.544 RelationalEventId.TransactionStarting[20209] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Beginning transaction with isolation level 'Unspecified'.
+dbug: 6/27/2021 18:08:06.555 RelationalEventId.TransactionStarted[20200] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Began transaction with isolation level 'ReadCommitted'.
+dbug: 6/27/2021 18:08:06.556 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 6/27/2021 18:08:06.556 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 6/27/2021 18:08:06.557 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE [Accounts] (
+          [AccountNumber] int NOT NULL,
+          [AccountName] nvarchar(max) NULL,
+          [AccountType] int NOT NULL,
+          [OpeningBalance] float NOT NULL,
+          [Balance] float NOT NULL,
+          [Description] nvarchar(max) NULL,
+          [IsSubOf] int NOT NULL,
+          [InGroup] int NOT NULL,
+          CONSTRAINT [PK_Accounts] PRIMARY KEY ([AccountNumber])
+      );
+info: 6/27/2021 18:08:06.560 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE [Accounts] (
+          [AccountNumber] int NOT NULL,
+          [AccountName] nvarchar(max) NULL,
+          [AccountType] int NOT NULL,
+          [OpeningBalance] float NOT NULL,
+          [Balance] float NOT NULL,
+          [Description] nvarchar(max) NULL,
+          [IsSubOf] int NOT NULL,
+          [InGroup] int NOT NULL,
+          CONSTRAINT [PK_Accounts] PRIMARY KEY ([AccountNumber])
+      );
+dbug: 6/27/2021 18:08:06.560 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 6/27/2021 18:08:06.560 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 6/27/2021 18:08:06.560 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE [Entries] (
+          [EntryID] int NOT NULL IDENTITY,
+          [GeneralJournal] bit NOT NULL,
+          [Date] datetime2 NOT NULL,
+          CONSTRAINT [PK_Entries] PRIMARY KEY ([EntryID])
+      );
+info: 6/27/2021 18:08:06.573 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE [Entries] (
+          [EntryID] int NOT NULL IDENTITY,
+          [GeneralJournal] bit NOT NULL,
+          [Date] datetime2 NOT NULL,
+          CONSTRAINT [PK_Entries] PRIMARY KEY ([EntryID])
+      );
+dbug: 6/27/2021 18:08:06.573 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 6/27/2021 18:08:06.573 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 6/27/2021 18:08:06.573 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE [EntryLines] (
+          [LineID] int NOT NULL IDENTITY,
+          [EntryID] int NOT NULL,
+          [AcctNum] int NOT NULL,
+          [OppAccountNum] int NOT NULL,
+          [Type] int NOT NULL,
+          [Date] datetime2 NOT NULL,
+          [Payee] nvarchar(max) NULL,
+          [Deposit] float NOT NULL,
+          [Payment] float NOT NULL,
+          [Memo] nvarchar(max) NULL,
+          [Class] int NULL,
+          [Category] int NULL,
+          [Cleared] nvarchar(max) NULL,
+          [ChkNum] nvarchar(max) NULL,
+          [Balance] float NOT NULL,
+          [AccountNumber] int NULL,
+          CONSTRAINT [PK_EntryLines] PRIMARY KEY ([LineID]),
+          CONSTRAINT [FK_EntryLines_Accounts_AccountNumber] FOREIGN KEY ([AccountNumber]) REFERENCES [Accounts] ([AccountNumber]) ON DELETE NO ACTION,
+          CONSTRAINT [FK_EntryLines_Entries_EntryID] FOREIGN KEY ([EntryID]) REFERENCES [Entries] ([EntryID]) ON DELETE CASCADE
+      );
+info: 6/27/2021 18:08:06.577 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE [EntryLines] (
+          [LineID] int NOT NULL IDENTITY,
+          [EntryID] int NOT NULL,
+          [AcctNum] int NOT NULL,
+          [OppAccountNum] int NOT NULL,
+          [Type] int NOT NULL,
+          [Date] datetime2 NOT NULL,
+          [Payee] nvarchar(max) NULL,
+          [Deposit] float NOT NULL,
+          [Payment] float NOT NULL,
+          [Memo] nvarchar(max) NULL,
+          [Class] int NULL,
+          [Category] int NULL,
+          [Cleared] nvarchar(max) NULL,
+          [ChkNum] nvarchar(max) NULL,
+          [Balance] float NOT NULL,
+          [AccountNumber] int NULL,
+          CONSTRAINT [PK_EntryLines] PRIMARY KEY ([LineID]),
+          CONSTRAINT [FK_EntryLines_Accounts_AccountNumber] FOREIGN KEY ([AccountNumber]) REFERENCES [Accounts] ([AccountNumber]) ON DELETE NO ACTION,
+          CONSTRAINT [FK_EntryLines_Entries_EntryID] FOREIGN KEY ([EntryID]) REFERENCES [Entries] ([EntryID]) ON DELETE CASCADE
+      );
+dbug: 6/27/2021 18:08:06.577 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 6/27/2021 18:08:06.577 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 6/27/2021 18:08:06.578 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX [IX_EntryLines_AccountNumber] ON [
